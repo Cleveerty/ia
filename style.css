@@ -1,0 +1,196 @@
+body{
+    background-color: black;
+    height: 100%;
+    background-size: cover;
+    background-position: fixed;
+}
+
+header {
+    color: white;
+    text-align: center;
+    border-style: solid;
+    border-color: transparent;
+}
+
+.profile-img {
+    width: 100px;
+    border-radius: 30%;
+    border: 2px solid white;
+    transition: transform 0.3s;
+}
+
+.profile-img:hover {
+    transform: scale(1.05);
+}
+
+nav {
+    background: transparent;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 1.5rem;
+}
+
+nav a:hover {
+    color: cyan;
+
+}
+nav a{
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;    
+    border:2px solid white;
+    padding: 4px;
+    background: #f5f5f5;
+}
+
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    position: fixed;
+    bottom: 0%;
+    width: 98%;
+}
+p{
+    color: white;
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+h3{
+    color: white;
+}
+.FourandFive{
+    background-color: #595959;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    background-size: 100%;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    color: white;
+    overflow: hidden;
+
+    
+}
+
+.SixandSeven{
+    background-color: #3f3f3f;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    color: white;
+    overflow: hidden;
+}
+
+/*Professional Page below*/
+
+#resume{
+    color: white;
+    background-color: #333;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    font-size: 18px;  
+    overflow: hidden;
+}
+#foot{
+    background: transparent;
+}
+
+#lists{
+    list-style-type: disc;
+    text-decoration: none;
+    list-style-position: inside;
+}
+#projects{
+    list-style-type: 1;
+}
+#pfooter{
+    padding: 20px;
+}
+#lists1{
+    color: white;
+    list-style-type: disc;
+    text-decoration: none;
+
+}
+#results{
+    color: white;
+    font-family: sans-serif
+}
+
+/*Reference Page */
+
+.apa-reference {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    text-indent: 36px;
+    margin-left: 36px;
+}
+
+.reference-icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 15px;
+    flex-shrink: 0;
+}
+.reference-content {
+    flex-grow: 1;
+}
+.references {
+    max-width: 800px;
+    margin: 0 auto;
+    color: white;
+}
+.rb {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: black;
+}
+.hr {
+    color: white;
+    text-align: center;
+}
+.ar {
+    color: #007BFF;
+    text-decoration: none;
+}
+.ar:hover {
+    color:  green;
+}
+.br{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    background-color: white;
+    color: black;
+}
