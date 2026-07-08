@@ -21,7 +21,15 @@ body{
     -webkit-font-smoothing:antialiased;
     -moz-osx-font-smoothing:grayscale;
     line-height:1.5;
+
+    /* Layout: flex column so footer stays at bottom and main grows */
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
 }
+
+/* main should take remaining space */
+main{padding:2rem 0; flex:1;}
 
 .container{
     max-width:var(--max-width);
@@ -88,7 +96,13 @@ footer{
     text-align:center;
     color:var(--muted);
     font-size:0.9rem;
+    position:static; /* ensure footer participates in document flow */
 }
+
+/* Hide native scrollbars while keeping scroll behavior */
+html{scrollbar-width:none; -ms-overflow-style:none}
+body::-webkit-scrollbar{width:0;height:0}
+
 
 /* Utility */
 .flex{display:flex}
